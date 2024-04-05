@@ -12,8 +12,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Montserrat", sans-serif;
+  --font-default:  "Montserrat", sans-serif; 
+  --font-primary: "Playfair Display", serif;
   --font-secondary: "Poppins", sans-serif;
 }
 
@@ -2664,4 +2664,10 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/************************ M Y   C S S *****************/
+.hero_paragraph{
+  font-family: Noto Serif;
+  font-size: 120%;
 }
