@@ -604,6 +604,11 @@ section {
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
+.about h2{
+  font-weight: 700;
+  font-size: 50px;
+}
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
@@ -1886,7 +1891,7 @@ section {
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1903,7 +1908,7 @@ section {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
 }
 
 .hero .btn-get-started:hover {
@@ -1958,10 +1963,10 @@ section {
 }
 
 .hero .icon-box {
-  padding: 60px 30px;
+  padding: 160px 150px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background-size: cover;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1992,14 +1997,12 @@ section {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.hero .icon-box:hover {
-  background: #009786;
-}
-
-.hero .icon-box:hover .title a,
-.hero .icon-box:hover .icon {
+.hero .icon-box:hover .title a{
   color: #fff;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Blog
@@ -2667,8 +2670,50 @@ section {
 }
 
 /************************ M Y   C S S *****************/
+
+
+.logo img{
+  width: 100% !important;
+  height: auto !important;
+}
+
+
 .hero_paragraph{
   font-family: Noto Serif;
   font-size: 120%;
   font-weight: bold
+}
+
+/*Styling for each icon box*/
+.makeup-icon {
+  background-image: url(https://i.pinimg.com/564x/7d/4d/ed/7d4ded030cdfc4796a7d81026d8b3b4f.jpg);
+}
+
+.nails-icon {
+  background-image: url(https://i.pinimg.com/736x/db/fc/fe/dbfcfe54513c6277b69d7fca12b9f01c.jpg);
+}
+
+.hair-icon {
+  background-image: url(https://i.pinimg.com/564x/cf/21/56/cf2156aeae3dbf709627e98dd703a260.jpg);
+}
+
+.facials-icon {
+  background-image: url(https://i.pinimg.com/564x/e4/a9/96/e4a9960a8cf3ab660cea394396991624.jpg);
+}
+
+/* Hover effect for each icon box */
+.makeup-icon:hover {
+  background-image: url(https://i.pinimg.com/564x/f8/ab/43/f8ab434f3d85d684172cec4b3dfadeec.jpg);
+}
+
+.nails-icon:hover {
+  background-image: url(https://i.pinimg.com/564x/dc/ba/ee/dcbaee2a8011c40582cff9d7589551cb.jpg);
+}
+
+.hair-icon:hover {
+  background-image: url(https://i.pinimg.com/564x/9f/ee/09/9fee0994770daef0d514571cfced1408.jpg);
+}
+
+.facials-icon:hover {
+  background-image: url(https://i.pinimg.com/564x/4c/73/af/4c73af91e24c84e31c64d287db8c9af4.jpg);
 }
