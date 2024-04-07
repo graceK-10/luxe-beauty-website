@@ -1887,7 +1887,7 @@ testimonial-img flex-shrink-0
 }
 
 .custom-video {
-  width: 50%; /* Set the width of the video to fill its container */
+  width: 60%; /* Set the width of the video to fill its container */
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   display: block; /* Ensure the video is displayed as a block element */
 }
