@@ -20,8 +20,17 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #000000;
-  --color-secondary: #f85a40;
+  --color-primary: #000;
+  --color-secondary: #CBA07F;
+}
+
+/*
+:root {
+  --color-primary: linear-gradient(to right, #ceb9af, #ffffff); 
+}
+*/
+.element {
+  background: #ffffff;
 }
 
 /* Smooth scroll behavior */
@@ -398,7 +407,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #00796b;
+    color: #643727;
   }
 
   .navbar .dropdown ul {
@@ -426,7 +435,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #643727;
   }
 
   .navbar .dropdown ul a i {
@@ -604,10 +613,7 @@ section {
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
-.about h2{
-  font-weight: 700;
-  font-size: 50px;
-}
+
 
 .about h3 {
   font-weight: 700;
@@ -939,11 +945,43 @@ section {
   padding: 60px 0;
 }
 
+.services h2{
+  font-weight: 700;
+  font-size: 50px;
+}
+
 .services .service-item {
-  padding: 40px;
-  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-size: cover; /* Make the background image cover the entire area */
+  background-position: center;
+  width: 100%;
   height: 100%;
-  border-radius: 10px;
+  box-sizing: border-box;
+} 
+  
+.services .service-item .products-1{
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/564x/1a/4d/d9/1a4dd938625a2c9984f7ee824158b8a9.jpg);
+} 
+
+.service-item .products-2{
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/564x/3e/dd/f6/3eddf65192f5b99c51bd22551393bdee.jpg); 
+}
+
+.btn-book-now{
+  border: 2px solid #473426;
+  background-color: #CBA07F;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 105px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
 }
 
 .services .service-item .icon {
@@ -966,7 +1004,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: #eeeeee;
+  background: #6d5959;
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -990,6 +1028,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: white;
 }
 
 .services .service-item .readmore {
@@ -1009,6 +1048,10 @@ section {
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
+/*
+testimonial-img flex-shrink-0
+*/
+
 .testimonials .testimonial-wrap {
   padding-left: 10px;
 }
@@ -1024,8 +1067,9 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
   margin-right: 15px;
 }
 
@@ -2684,6 +2728,12 @@ section {
   font-weight: bold
 }
 
+.custom-video {
+  width: 50%; /* Set the width of the video to fill its container */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  display: block; /* Ensure the video is displayed as a block element */
+}
+
 /*Styling for each icon box*/
 .makeup-icon {
   background-image: url(https://i.pinimg.com/564x/7d/4d/ed/7d4ded030cdfc4796a7d81026d8b3b4f.jpg);
@@ -2717,3 +2767,9 @@ section {
 .facials-icon:hover {
   background-image: url(https://i.pinimg.com/564x/4c/73/af/4c73af91e24c84e31c64d287db8c9af4.jpg);
 }
+
+.about h2{
+  font-weight: 700;
+  font-size: 50px;
+}
+
